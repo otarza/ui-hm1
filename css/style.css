@@ -1,0 +1,29 @@
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+form label {
+	display: block;
+	clear: both;	
+}
+
+.birthdate div {
+	float: left;
+	margin-right: 10px;
+}
+
+.has-error {
+	color: rgb(187, 52, 52);
+}
+
+.control-group {
+	margin-top: 20px;
+}
+
+.container {
+	margin-bottom: 20px;
+}
+
+.btn {
+	margin-top: 20px;
+}

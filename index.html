@@ -1,0 +1,176 @@
+<!Doctype html>
+<html>
+<head>
+<title> Registration Form </title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<section class='container'>
+		<div class="row"> 
+			<div class="col-xs-10 col-sm-5 col-md-5 col-centered">
+				<form id="register" method="POST" action="#">
+					<header>
+						<h1>Register</h1>
+					</header>
+				<div class="control-group">
+					<label for="email"> Email / Login </label>
+					<input id="email" class="form-control" type="email" name="email" >
+				</div>	
+				<div class="control-group">
+					<label for="newPasswd"> New Password </label>
+					<input id="newPasswd" class="form-control" type="password" name="newPasswd" >
+				</div>
+				<div class="control-group">
+					<label for="name"> Name </label>
+					<input id="name" class="form-control" type="text" name="name" >
+				</div>
+				<div class="control-group">
+					<label for="surname"> Surname </label>
+					<input id="surname" class="form-control" type="text" name="surname" >
+				</div>
+				<div class="control-group">
+					<label for="phone"> Phone</label>
+					<input id="phone" class="form-control" type='tel' name="phone">
+				</div>
+				<div class="control-group">
+					<label for="gender"> Gender </label>
+					<select id="gender" class="form-control" >
+					  <option value="male">Male</option>
+					  <option value="female">Female</option>
+					</select>
+				</div>
+				<div class="control-group">
+					<label for="address"> Address </label>
+					<input id="address" class="form-control" type="text" name="address" >
+				</div>
+				<div class="control-group">
+					<label> Date Of Birth </label>
+					<fieldset class="birthdate">
+						<div class="control-group">
+							<label for="years"> Year </label>
+							<select id="years" class="form-control" ></select>
+						</div>
+						<div class="control-group">
+							<label for="months"> Month </label>
+							<select id="months" class="form-control" ></select>
+						</div>
+						<div class="control-group">
+							<label for="days"> Day </label>
+							<select id="days" class="form-control" ></select>
+						</div>				
+					</fieldset>
+				</div>
+
+				<div class="control-group">
+					<label for="address"> Spouse's Name </label>
+					<input id="spouse" class="form-control" type="text" name="spouse" >
+				</div>
+
+				<div class="control-group">
+					<label for="bio"> Short biography </label>
+					<textarea name="bio" form="register" class="form-control" ></textarea>
+				</div>
+
+				<div class="control-group">
+					<label for="interest">Interests</label>
+					<fieldset id="interests">
+						<div class="checkbox">
+  							<label>
+    							<input type="checkbox" value="" >
+    							Cars
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-reading" name="intrests-reading" type="checkbox" value="reading" >
+    							Reading
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-engineering" name="intrests-engineering" type="checkbox" value="engineering" >
+    							Engineering
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-design" name="intrests-design" type="checkbox" value="design" >
+    							Design
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-programming" name="intrests-programming" type="checkbox" value="programming" >
+    							Programming
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-music" name="intrests-music" type="checkbox" value="music" >
+    							Music
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-movies" name="intrests-movies" type="checkbox" value="movies" >
+    							Movies
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-movies" name="intrests-movies" type="checkbox" value="movies" >
+    							Movies
+  							</label>
+						</div>
+						<div class="checkbox">
+  							<label>
+    							<input id="intrests-writting" name="intrests-writting" type="checkbox" value="writting" >
+    							Writting
+  							</label>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="control-group">
+					<label for="occupation"> Occupation </label>
+					<select id="occupation" class="form-control" >
+					  <option value="software-developer">Software Developer</option>
+					  <option value="graphics-designer">Graphics Designer</option>
+					  <option value="illustrator">Illustrator</option>
+					  <option value="software-architect">Software Architect</option>
+					  <option value="user-interface-designer">User Interface Designer</option>
+					  <option value="product-designer">Product Designer</option>
+					  <option value="loafer">Loafer</option>
+					</select>
+				</div>
+
+				<div class="control-group">
+					<label for="merital-status"> Merital Status </label>
+					<select id="merital-status" class="form-control" >
+					  <option value="single">Single</option>
+					  <option value="married">Married</option>
+					  <option value="itscomplicated">It's complicated</option>
+					  <option value="divorced/widowed">Divorced Widowed</option>
+					</select>
+				</div>
+
+
+
+
+				<input type="submit" name="submit" value="submit" class="btn btn-primary">
+			</form>
+
+			</div>
+			
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
